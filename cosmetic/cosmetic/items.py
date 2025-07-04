@@ -7,6 +7,11 @@ import scrapy
 
 
 class CosmeticItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    product_name = scrapy.Field()
+    brand = scrapy.Field()
+    ingredients = scrapy.Field()
+    product_category = scrapy.Field()
+    product_detail = scrapy.Field()
+    page_url = scrapy.Field()
+    article_number = scrapy.Field()
+    parse_date = scrapy.Field()
