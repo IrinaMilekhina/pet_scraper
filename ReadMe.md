@@ -1,5 +1,5 @@
 ## Scraping data from the website https://cosmetic.de/.
-Parsing data for all products on the site.
+Parsing data for all products on the site using scrapy.
 
 ### Data
 - Name of the product
