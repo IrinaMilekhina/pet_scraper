@@ -17,3 +17,12 @@ To create docker run command from project directory:
 
 `docker-compose up`
 
+## Start
+To run the project you need to execute the file **runner.py**
+
+## envs
+Environments located in .env file
+DB_PASS
+DB_USER
+DB_NAME
+
