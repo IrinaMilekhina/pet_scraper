@@ -7,7 +7,9 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-LOG_LEVEL = 'INFO'
+LOG_LEVEL = 'WARNING'
+
+ingredients_statistics = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, "no": 0}
 
 BOT_NAME = "cosmetic"
 

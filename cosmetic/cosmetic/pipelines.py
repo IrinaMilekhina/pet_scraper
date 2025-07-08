@@ -1,6 +1,10 @@
+import logging
 import os
+
 import psycopg2
 from dotenv import load_dotenv
+
+from settings import ingredients_statistics
 
 load_dotenv()
 
@@ -62,5 +66,6 @@ class CosmeticPipeline:
         return item
 
     def close_spider(self, spider):
+        logging.warning(ingredients_statistics)
         self.cur.close()
         self.connection.close()
